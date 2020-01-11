@@ -13,7 +13,7 @@ import java.sql.*;
 public class TransactionTest {
     @Test
     public void testTransactionSelect() throws Exception {
-            Connection connection = JDBCUtils.getConnecton();
+            Connection connection = JDBCUtils.getConnection();
             System.out.println(connection.getTransactionIsolation());
             connection.setTransactionIsolation(Connection.TRANSACTION_READ_COMMITTED);
             connection.setAutoCommit(false);
@@ -24,7 +24,7 @@ public class TransactionTest {
     }
     @Test
     public void testTransactionUpdate() throws Exception {
-        Connection connection = JDBCUtils.getConnecton();
+        Connection connection = JDBCUtils.getConnection();
         connection.setAutoCommit(false);
         String sql="update user_table set balance=? where user=?";
         update(sql,5000,"CC");
@@ -68,7 +68,7 @@ public class TransactionTest {
     public void testUpdateTx(){
         Connection connecton = null;
         try {
-            connecton = JDBCUtils.getConnecton();
+            connecton = JDBCUtils.getConnection();
             System.out.println(connecton.getAutoCommit());
             connecton.setAutoCommit(false);
             String sql1="update user_table set balance=balance-100 where user=?";
@@ -130,7 +130,7 @@ public class TransactionTest {
         PreparedStatement preparedStatement=null;
         try {
             //获取链接
-            connecton = JDBCUtils.getConnecton();
+            connecton = JDBCUtils.getConnection();
             //预编译sql
             preparedStatement = connecton.prepareStatement(sql);
             //填充占位符

@@ -12,7 +12,7 @@ import java.util.Properties;
  * @create 2020/1/10-7:10 下午
  */
 public class JDBCUtils {
-    public static Connection getConnecton()throws Exception{
+    public static Connection getConnection()throws Exception{
         InputStream in = ClassLoader.getSystemClassLoader().getResourceAsStream("jdbc.properties");
         Properties properties=new Properties();
         properties.load(in);

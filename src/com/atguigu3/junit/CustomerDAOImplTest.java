@@ -1,6 +1,6 @@
 package com.atguigu3.junit;
 
-import com.atguigu1.util.JDBCUtils;
+import com.atguigu4.util.JDBCUtils;
 import com.atguigu2.bean.Customer;
 import com.atguigu3.dao.CustomerDAOImpl;
 import org.junit.Test;
@@ -19,7 +19,7 @@ public class CustomerDAOImplTest {
     public void testInsert() {
         Connection connecton = null;
         try {
-            connecton = JDBCUtils.getConnecton();
+            connecton = JDBCUtils.getConnection();
             Customer customer=new Customer(1,"于小飞","xiaofei@126.com",new Date(8728323728L));
             customerDAO.insert(connecton,customer);
             System.out.println("添加成功");
@@ -33,7 +33,7 @@ public class CustomerDAOImplTest {
     public void testDeleteById(){
         Connection connecton = null;
         try {
-            connecton = JDBCUtils.getConnecton();
+            connecton = JDBCUtils.getConnection();
             customerDAO.deleteById(connecton,13);
             System.out.println("删除成功");
         } catch (Exception e) {
@@ -46,7 +46,7 @@ public class CustomerDAOImplTest {
     public void testUpdate(){
         Connection connecton = null;
         try {
-            connecton = JDBCUtils.getConnecton();
+            connecton = JDBCUtils.getConnection();
             Customer customer=new Customer(18,"贝多芬","beiduofen@126.com",new Date(98349229L));
             customerDAO.update(connecton,customer);
             System.out.println("修改成功");
@@ -60,7 +60,7 @@ public class CustomerDAOImplTest {
     public void testGetCustomerById(){
         Connection connecton = null;
         try {
-            connecton = JDBCUtils.getConnecton();
+            connecton = JDBCUtils.getConnection3();
             Customer customer = customerDAO.getCustomerById(connecton, 19);
             System.out.println(customer);
         } catch (Exception e) {
@@ -73,7 +73,7 @@ public class CustomerDAOImplTest {
     public void testGetAll(){
         Connection connecton = null;
         try {
-            connecton = JDBCUtils.getConnecton();
+            connecton = JDBCUtils.getConnection();
             List<Customer> list = customerDAO.getAll(connecton);
             list.forEach(System.out::println);
             System.out.println("");
@@ -87,7 +87,7 @@ public class CustomerDAOImplTest {
     public void testGetCount(){
         Connection connecton = null;
         try {
-            connecton = JDBCUtils.getConnecton();
+            connecton = JDBCUtils.getConnection();
             long count = customerDAO.getCount(connecton);
             System.out.println("总个数为："+count);
         } catch (Exception e) {
@@ -100,7 +100,7 @@ public class CustomerDAOImplTest {
     public void testGetMaxBirth(){
         Connection connecton = null;
         try {
-            connecton = JDBCUtils.getConnecton();
+            connecton = JDBCUtils.getConnection();
             java.util.Date maxBirth = customerDAO.getMaxBirth(connecton);
             System.out.println("最大生日为："+maxBirth);
         } catch (Exception e) {

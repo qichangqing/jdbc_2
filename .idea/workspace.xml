@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="deb0f209-f55e-419e-a0f3-aed73b08bed7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/c3p0_0_9_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_dbcp_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_dbutils_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_pool_1_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/druid_1_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/summary" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-dbcp-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-dbutils-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-pool-1.5.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/druid-1.1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jdbc_2/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jdbc_2/com/atguigu1/transaction/ConnectionTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jdbc_2/com/atguigu1/transaction/TransactionTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jdbc_2/com/atguigu1/transaction/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jdbc_2/com/atguigu1/util/JDBCUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jdbc_2/com/atguigu2/bean/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jdbc_2/com/atguigu2/bean/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jdbc_2/com/atguigu2/dao/BaseDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jdbc_2/com/atguigu2/dao/CustomerDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jdbc_2/com/atguigu2/dao/CustomerDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jdbc_2/com/atguigu2/dao/junit/CustomerDAOImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jdbc_2/com/atguigu3/dao/BaseDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jdbc_2/com/atguigu3/dao/CustomerDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jdbc_2/com/atguigu3/dao/CustomerDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jdbc_2/com/atguigu3/junit/CustomerDAOImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jdbc_2/com/atguigu4/connection/C3P0Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jdbc_2/com/atguigu4/connection/DBCPTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jdbc_2/com/atguigu4/connection/DruidTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jdbc_2/com/atguigu4/util/JDBCUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jdbc_2/com/atguigu5/dbutils/QueryRunnerTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jdbc_2/com/atguigu5/dbutils/QueryRunnerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jdbc_2/dbcp.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jdbc_2/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jdbc_2/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu4/connection/C3P0Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu4/connection/DBCPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu4/connection/DruidTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu4/util/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu5/dbutils/QueryRunnerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dbcp.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/druid.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu1/transaction/ConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu1/transaction/ConnectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu1/transaction/TransactionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu1/transaction/TransactionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu1/util/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu1/util/JDBCUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu2/dao/BaseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu2/dao/BaseDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu2/dao/junit/CustomerDAOImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu2/dao/junit/CustomerDAOImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu3/junit/CustomerDAOImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu3/junit/CustomerDAOImplTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="42d3efd9-17d4-43dd-acdd-37bfe75d5711" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$" />
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WEXTtsSY2LaubPEKJHNlw8LuwX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu3.junit" />
+      <recent name="com.atguigu1.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/src/com/atguigu3/dao" />
+      <recent name="$PROJECT_DIR$/src/com/atguigu2/bean" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.QueryRunnerTest.testQuery5">
+    <configuration name="QueryRunnerTest.testQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu5.dbutils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu5.dbutils" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu5.dbutils.QueryRunnerTest" />
+      <option name="METHOD_NAME" value="testQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueryRunnerTest.testQuery2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu5.dbutils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu5.dbutils" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu5.dbutils.QueryRunnerTest" />
+      <option name="METHOD_NAME" value="testQuery2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueryRunnerTest.testQuery3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu5.dbutils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu5.dbutils" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu5.dbutils.QueryRunnerTest" />
+      <option name="METHOD_NAME" value="testQuery3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueryRunnerTest.testQuery4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu5.dbutils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu5.dbutils" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu5.dbutils.QueryRunnerTest" />
+      <option name="METHOD_NAME" value="testQuery4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueryRunnerTest.testQuery5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu5.dbutils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu5.dbutils" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu5.dbutils.QueryRunnerTest" />
+      <option name="METHOD_NAME" value="testQuery5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.QueryRunnerTest.testQuery5" />
+        <item itemvalue="JUnit.QueryRunnerTest.testQuery4" />
+        <item itemvalue="JUnit.QueryRunnerTest.testQuery3" />
+        <item itemvalue="JUnit.QueryRunnerTest.testQuery2" />
+        <item itemvalue="JUnit.QueryRunnerTest.testQuery" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="deb0f209-f55e-419e-a0f3-aed73b08bed7" name="Default Changelist" comment="" />
+      <created>1578715738379</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578715738379</updated>
+      <workItem from="1578715741609" duration="26640000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="438" y="240" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578771391764">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="438" y="240" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.814@0.23.1440.814" timestamp="1578771391764" />
+    <state x="533" y="154" key="#com.intellij.ide.util.MemberChooser" timestamp="1578743102960">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="533" y="154" key="#com.intellij.ide.util.MemberChooser/0.23.1440.814@0.23.1440.814" timestamp="1578743102960" />
+    <state x="482" y="142" key="DetectedRootsChooserDialog" timestamp="1578761546504">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="482" y="142" key="DetectedRootsChooserDialog/0.23.1440.814@0.23.1440.814" timestamp="1578761546503" />
+    <state x="584" y="335" key="Github.ShareDialog" timestamp="1578751945600">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="584" y="335" key="Github.ShareDialog/0.23.1440.814@0.23.1440.814" timestamp="1578751945600" />
+    <state x="521" y="145" key="Github.UntrackedFilesDialog" timestamp="1578751959194">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="521" y="145" key="Github.UntrackedFilesDialog/0.23.1440.814@0.23.1440.814" timestamp="1578751959194" />
+    <state width="1398" height="209" key="GridCell.Tab.0.bottom" timestamp="1578767170055">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1398" height="209" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1578767170055" />
+    <state width="1398" height="209" key="GridCell.Tab.0.center" timestamp="1578767170054">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1398" height="209" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1578767170054" />
+    <state width="1398" height="209" key="GridCell.Tab.0.left" timestamp="1578767170054">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1398" height="209" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1578767170054" />
+    <state width="1398" height="209" key="GridCell.Tab.0.right" timestamp="1578767170055">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1398" height="209" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1578767170055" />
+    <state x="208" y="23" width="1024" height="814" key="SettingsEditor" timestamp="1578761055549">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="208" y="23" width="1024" height="814" key="SettingsEditor/0.23.1440.814@0.23.1440.814" timestamp="1578761055549" />
+    <state x="424" y="333" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1578716282684">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="424" y="333" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1440.814@0.23.1440.814" timestamp="1578716282684" />
+  </component>
+</project>

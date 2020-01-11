@@ -12,7 +12,7 @@ import java.sql.Connection;
 public class ConnectionTest {
     @Test
     public void testGetConnection() throws Exception {
-        Connection connecton = JDBCUtils.getConnecton();
+        Connection connecton = JDBCUtils.getConnection();
         System.out.println(connecton);
     }
 }

@@ -15,7 +15,7 @@ import java.util.List;
  */
 public abstract class BaseDAO<T> {
     private Class<T> clazz=null;
-    {
+    {   //子类获取父类的范型参数类
         Type genericSuperclass = this.getClass().getGenericSuperclass();
         ParameterizedType type=(ParameterizedType)genericSuperclass;
         Type[] actualTypeArguments = type.getActualTypeArguments();
